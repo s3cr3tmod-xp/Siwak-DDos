@@ -51,7 +51,7 @@ banner = r"""
 ▒▒║
 ▒▒╚═══════════╝
 
-""".replace('▒▒', '╚╝')
+""".replace('▒▒', '▒▒')
 
 
 banner = Add.Add(ascii, banner, center=True)
