@@ -23,9 +23,11 @@ if osystem == "linux":
 else:
   os.system("cls")
 print("""
+\033[32m 
 
-os.system("https://github.com/Kodekeras24")
-print("\033[37mWelcome to Zona Blackphanter\033[0m")
+[*] /s3cr3tmod-xp/Siwak-DDos
+
+[✓] Black Army Comunnity
 
 """)
 time.sleep(2.5)
@@ -37,19 +39,17 @@ else:
   os.system("cls")
   
 time.sleep(1)
-ascii = r'''
-
+ascii = r"""
 
 [!] Do not use to attack government sites 
 
-          
- '''
+  """
 
 
 
 
 banner = r"""
-v2 """.replace('▓', '▀')
+v2 """.replace(",")
 
 
 banner = Add.Add(ascii, banner, center=True)
