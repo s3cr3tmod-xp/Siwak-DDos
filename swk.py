@@ -15,7 +15,7 @@ import os
 
 headers = {
   "User-Agent": "Mozilla/5.0 (X11; Linux x86_64"
-
+}
 osystem = sys.platform
 
 if osystem == "linux":
@@ -46,13 +46,13 @@ ascii = r"""
   """
 banner = r"""
 
-     ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
-     ▒▒╔══════════╗
-     ▒▒║
-     ▒▒╚═══════════╝
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+▒▒╔══════════╗
+▒▒║
+▒▒╚═══════════╝
 
+"""
 
-v2 """.replace("▒▒,╚╝")
 
 
 
@@ -88,11 +88,12 @@ async def fetch(session, url):
           final = str(set_final).replace("-", "")
  
           if response.status == 200:
-            r += 1
-          reqs.append(response.status)
           sys.stdout.write(f"Requests : {str(len(reqs))} | Time : {final} | Response Status Code => {str(response.status)}\r")
+            r += 1
+          time.sleep(2.5)
+          reqs.append(response.status)
           print("")
-          sys.stdout.write("\033[48;5;7m\033[30mRequests webs\033[0m \033[38;5;39m" +str(url)+ " \033[33mStatus Code \033[21m" +str(response.status)+\r") 
+          sys.stdout.write("\033[48;5;7m\033[30mRequests webs\033[0m \033[38;5;39m" +str(url)+ " \033[33mStatus Code \033[21m" +str(response.status)+ "\033[0m") 
         else:
           print(Colorate.Horizontal(Colors.red_to_green, "[-] Server is not responding"))
 
