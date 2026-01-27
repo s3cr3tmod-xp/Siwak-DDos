@@ -52,17 +52,9 @@ banner = r"""
 ▒▒╚═══════════╝
 
 """
-
-
-
-
-
 banner = Add.Add(ascii, banner, center=True)
 
- 
-
- 
-print(Colorate.Horizontal(Colors.red_to_blue, banner))
+ print(Colorate.Horizontal(Colors.red_to_blue, banner))
 #//Gui End//#
 num = 0
 reqs = []
@@ -86,13 +78,11 @@ async def fetch(session, url):
           set_end = int(time.time())
           set_final = start - set_end
           final = str(set_final).replace("-", "")
-
-        if response.status == 200:
+ 
+          if response.status == 200:
             r += 1
-          time.sleep(2.5)
           reqs.append(response.status)
           sys.stdout.write(f"Requests : {str(len(reqs))} | Time : {final} | Response Status Code => {str(response.status)}\r")
-          sys.stdout.write("\033[48;5;7m\033[30mRequests webs\033[0m \033[38;5;39m" +str(url)+ " \033[33mStatus Code \033[21m" +str(response.status)+ "\033[0m")  
         else:
           print(Colorate.Horizontal(Colors.red_to_green, "[-] Server is not responding"))
 
