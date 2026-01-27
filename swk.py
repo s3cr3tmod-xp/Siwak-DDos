@@ -44,12 +44,14 @@ ascii = r"""
 [!] Do not use to attack government sites 
 
   """
+banner = r"""
+
      ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
      ▒▒╔══════════╗
      ▒▒║
      ▒▒╚═══════════╝
 
-banner = r"""
+
 v2 """.replace("▒▒,╚╝")
 
 
