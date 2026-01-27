@@ -14,8 +14,7 @@ import os
  
 
 headers = {
-  "User-Agent": "Flyier DoS"
-}
+  "User-Agent": "Mozilla/5.0 (X11; Linux x86_64"
 
 osystem = sys.platform
 
