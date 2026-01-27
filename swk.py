@@ -41,8 +41,8 @@ print("""
 
 """)
 time.sleep(5)
-
 print("Loading komplit.....!")
+time.sleep(1)
 if osystem == "linux":
   os.system("clear")
 else:
