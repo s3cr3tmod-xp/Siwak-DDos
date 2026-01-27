@@ -97,7 +97,8 @@ if url.startswith("http") or url.startswith("https"):
 else:
   url = "http://"+url
 
-  print(url)
+
+print(url)
 async def fetch(session, url):
     global r, reqs
     start = int(time.time())
@@ -118,6 +119,8 @@ async def fetch(session, url):
         else:
           print(Colorate.Horizontal(Colors.red_to_green, "[-] Server is not responding"))
 
+
+
 urls = []
 urls.append(url)
 
@@ -127,6 +130,7 @@ async def main():
     for url in urls:
       tasks.append(fetch(session, url))
     ddos = await asyncio.gather(*tasks)
+
 
 def run():
     loop.run_forever(asyncio.run(main()))
