@@ -61,11 +61,11 @@ banner = r"""
 """.replace('▒▒', '▒▒')
 print(Colorate.Horizontal(Colors.green_to_red, banner))
 banner = """
-╔═══════════════════════════════════════════════════════════════════╗
+╔═╗
 ║                                   Deign by: KunFayz'         ║
 ║                        Github: Zblack for Black Army community     ║ 
 ╚═══════════════════════════════════════════════════════════════════╝
-""".replace('','')
+""".replace(╔{'═' * 50}╗)
 print(Colorate.Horizontal(Colors.red_to_blue, banner))
 
 while attemps < 100:
