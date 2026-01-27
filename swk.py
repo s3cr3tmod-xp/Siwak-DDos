@@ -88,7 +88,7 @@ async def fetch(session, url):
 
 
 urls = []
-urls append(url)
+urls.append(url)
 
 async def main():
   tasks = []
