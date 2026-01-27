@@ -65,7 +65,7 @@ banner = """
 ║                                   Deign by: KunFayz'         ║
 ║                        Github: Zblack for Black Army community     ║ 
 ╚═══════════════════════════════════════════════════════════════════╝
-""".replace(╔{'═' * 50}╗)
+""".replace("╔('═' * 50}╗")
 print(Colorate.Horizontal(Colors.red_to_blue, banner))
 
 while attemps < 100:
