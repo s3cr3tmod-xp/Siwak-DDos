@@ -1,5 +1,6 @@
 import colorama
 import threading 
+import requests
 import aiohttp
 import asyncio
 import subprocess
