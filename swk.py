@@ -39,11 +39,6 @@ else:
   os.system("cls")
   
 time.sleep(1)
-ascii = r"""
-
-[!] Do not use to attack government sites 
-
-  """
 banner = r"""
 
 ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
@@ -53,12 +48,12 @@ banner = r"""
 
 """.replace('▒▒', '▒▒')
 
+ascii = r"""
 
+[!] Do not use to attack government sites 
+
+  """
 banner = Add.Add(ascii, banner, center=True)
-
- 
-
- 
 print(Colorate.Horizontal(Colors.red_to_blue, banner))
 #//Gui End//#
 num = 0
