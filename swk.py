@@ -80,8 +80,7 @@ async def fetch(session, url):
           reqs.append(response.status)
           time.sleep(2)
           print()
-          sys.stdout.write(f"\033[38;5;39mRequests\033[37m: |{str(len(reqs))}| \033[38;5;39mtime\033[37m: |{final}| \033[38;5;37mResponse status Code \033[37m|{str(response.status)}|\r")
-          print(f"\033[38;5;2mWeb target \033[33m" +str(url)+ "")
+          sys.stdout.write(f"\033[38;5;39mRequests\033[37m: |{str(len(reqs))}| \033[38;5;39mtime\033[37m: |{final}| \033[38;5;37mResponse status Code \033[37m|{str(response.status)}| \033[32m" +str(url)+ "\r") 
         else:
           print(Colorate.Horizontal(Colors.red_to_green, "[-] Server is not responding"))
 
