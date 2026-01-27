@@ -39,20 +39,21 @@ else:
   os.system("cls")
   
 time.sleep(1)
-banner = r"""
-
-▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
-▒▒╔══════════╗
-▒▒║
-▒▒╚═══════════╝
-
-""".replace('▒▒', '▒▒')
-
 ascii = r"""
 
 [!] Do not use to attack government sites 
 
-  """
+"""
+banner = r"""
+
+        ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+        ▒▒╔══════════╗
+        ▒▒║
+        ▒▒╚═══════════╝
+
+        """.replace('▒▒', '▒▒')
+
+
 banner = Add.Add(ascii, banner, center=True)
 print(Colorate.Horizontal(Colors.red_to_blue, banner))
 #//Gui End//#
