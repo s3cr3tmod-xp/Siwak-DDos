@@ -65,7 +65,7 @@ banner = r"""
 print(Colorate.Horizontal(Colors.green_to_red, banner))
 banner = """
 ╔═════════════════════════════════════════════════════════════════╗
-║                                         Design By: KunFayakun
+║                     Design By: KunFayakun                  ║
 ║
 ╚═════════════════════════════════════════════════════════════════╝
 """                       
