@@ -49,7 +49,7 @@ banner = r"""
         """.replace('▒▒', '▒▒')
 
 
-print(Colorate.Horizontal(Colors.pink_to_blue, banner))
+print(Colorate.Horizontal(Colors.green_to_red, banner))
 #//Gui End//#
 num = 0
 reqs = []
