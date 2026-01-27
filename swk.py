@@ -44,12 +44,14 @@ ascii = r"""
 [!] Do not use to attack government sites 
 
   """
-
-
-
+╔══════════╗
+║
+╚═══════════╝
 
 banner = r"""
-v2 """.replace(",")
+v2 """.replace("╔╗,╚╝")
+
+
 
 
 banner = Add.Add(ascii, banner, center=True)
