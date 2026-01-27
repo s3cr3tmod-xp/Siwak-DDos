@@ -55,9 +55,10 @@ num = 0
 reqs = []
 loop = asyncio.new_event_loop()
 r = 0
-url = input("{?} Enter Web Url-> ")
+print("\033[38;5;111m┏━━━━━━━⬣")
+url = input("\033[38;5;111m┗━⟩ Url-target: \033[37m")
 print()
-time.sleep(1)
+time.sleep(2)
 if url.startswith("http") or url.startswith("https"):
   pass
 else:
