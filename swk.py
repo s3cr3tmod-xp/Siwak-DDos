@@ -65,15 +65,16 @@ banner = r"""
 print(Colorate.Horizontal(Colors.green_to_red, banner))
 banner = """
 ╔═════════════════════════════════════════════════════════════════╗
-║  Design By: KunFayakun                                        ║
+║  Design By: KunFayakun                                          ║
 ║  0wner: Z'black [ Black Army Community ]                        ║
 ╚═════════════════════════════════════════════════════════════════╝
 """                       
 print(Colorate.Horizontal(Colors.red_to_blue, banner))
 
 while attemps < 100:
-    username = input("\033[32mEnter your username: \033[0m")
-    password = input("\033[31mEnter your password: \033[0m")
+    print("┏━━⬣")
+    username = input("\033[38;5;111m┗>Username: \033[37m")
+    password = input("\033[38;5;111m┗> Password: \033[37m")
 
     if username == 'swk00' and password == 'swk00':
         print("\033[32m⟩⟩ Hai...! Welcome \033[0m")
@@ -87,8 +88,8 @@ num = 0
 reqs = []
 loop = asyncio.new_event_loop()
 r = 0
-print("\033[38;5;111m┏━━━━━━━⬣")
-url = input("\033[38;5;111m┗━⟩ Url-target: \033[37m")
+print("\033[38;5;111m┏━━⬣")
+url = input("\033[38;5;111m┗━> Url-target: \033[37m")
 print()
 time.sleep(2)
 if url.startswith("http") or url.startswith("https"):
