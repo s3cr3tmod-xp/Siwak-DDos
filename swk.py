@@ -15,7 +15,7 @@ import os
 
 #//Gui Start//#
 headers = {
-  "User-Agent": "Siwak"
+  "User-Agent": "s3cr3tmod-xp"
 }
 osystem = sys.platform
 
