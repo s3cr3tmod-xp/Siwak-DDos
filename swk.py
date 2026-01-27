@@ -68,7 +68,6 @@ else:
 async def fetch(session, url):
     global r, reqs
     start = int(time.time())
-    time.sleep(1)
     while True:
       async with session.get(url, headers=headers) as response:
         if response:
@@ -81,7 +80,7 @@ async def fetch(session, url):
             r += 1
           reqs.append(response.status)
           print()
-          sys.stdout.write(f"\033[38;5;39mRequests\033[37m: |{str(len(reqs))}| \033[38;5;39mtime\033[37m: |{final}| \033[38;5;37mStatus Code \033[37m|{str(response.status)}| \033[32m" +str(url)+ "\r") 
+          sys.stdout.write(f"\033[38;5;39mRequests\033[37m: |{str(len(reqs))}| \033[38;5;39mtime\033[37m: |{final}| \033[38;5;37mStatus Code \033[37m|{str(response.status)}| \033[32m" +str(url)+ "") 
         else:
           print(Colorate.Horizontal(Colors.red_to_green, "[-] Server is not responding"))
 
