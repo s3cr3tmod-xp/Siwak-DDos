@@ -10,18 +10,14 @@ import time
 from time import sleep
 from pystyle import *
 import os
-val client = OkHttpClient.Builder()
-    .addInterceptor { chain ->
-        val request = chain.request().newBuilder()
-            .header("User-Agent", "Siwak-DDos")
-            .build()
-        chain.proceed(request)
-    }
-    .build()
+
 
 
 #//Gui Start//#
- osystem = sys.platform
+headers = {
+  "User-Agent": "Siwak"
+}
+osystem = sys.platform
 
 if osystem == "linux":
   os.system("clear")
