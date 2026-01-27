@@ -28,7 +28,7 @@ print("""
 [*] gh repo clone s3cr3tmod-xp/Siwak-DDos
 
 """)
-time.sleep(2.5)
+time.sleep(5)
 
 if osystem == "linux":
   os.system("clear")
@@ -40,7 +40,7 @@ print("""
 [✓] BLACK ARMY COMMUNITY
 
 """)
-time.sleep(2.5)
+time.sleep(5)
 
 
 if osystem == "linux":
@@ -48,7 +48,8 @@ if osystem == "linux":
 else:
   os.system("cls")
   
-time.sleep(1)
+time.sleep(5)
+attemps = 0
 banner = r"""
 
         ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
@@ -58,7 +59,18 @@ banner = r"""
 
         """.replace('▒▒', '▒▒')
 
+while attemps < 100:
+    username = input("\033[32mEnter your username: \033[0m")
+    password = input("\033[31mEnter your password: \033[0m")
 
+    if username == 'bp4' and password == 'bp4':
+        print("\033[32m⟩⟩ Hai...! Welcome to zona attack BLACKPHANTER \033[0m")
+        break
+    else:
+        print('Incorrect credentials. Check if you have Caps lock on and try again.')
+        attemps += 1
+        continue
+     
 print(Colorate.Horizontal(Colors.green_to_red, banner))
 #//Gui End//#
 num = 0
