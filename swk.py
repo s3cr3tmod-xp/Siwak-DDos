@@ -25,9 +25,19 @@ else:
 print("""
 \033[32m 
 
-[*] /s3cr3tmod-xp/Siwak-DDos
+[*] gh repo clone s3cr3tmod-xp/Siwak-DDos
 
-[✓] Black Army Comunnity
+""")
+time.sleep(2.5)
+
+if osystem == "linux":
+  os.system("clear")
+else:
+  os.system("cls")
+print("""
+\033[37m 
+
+[✓] BLACK ARMY COMMUNITY
 
 """)
 time.sleep(2.5)
