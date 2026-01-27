@@ -78,8 +78,7 @@ async def fetch(session, url):
           if response.status == 200:
             r += 1
           reqs.append(response.status)
-          print(Colorate.Horizontal(Colors.red_to_green,")
-          sys.stdout.write(f"Requests : {str(len(reqs))} | Time : {final} | Response Status Code => {str(response.status)}\r")
+          sys.stdout.write(f"\033[38;5;2m\033[38;5;39mRequests\033[0m: {str(len(reqs))} | Time : {final} \033[ | Response Status Code => {str(response.status)}\r")
         else:
           print(Colorate.Horizontal(Colors.red_to_green, "[-] Server is not responding"))
 
