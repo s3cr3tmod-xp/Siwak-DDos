@@ -68,6 +68,7 @@ else:
 async def fetch(session, url):
     global r, reqs
     start = int(time.time())
+    time.sleep(1)
     while True:
       async with session.get(url, headers=headers) as response:
         if response:
@@ -75,7 +76,7 @@ async def fetch(session, url):
           set_final = start - set_end
           final = str(set_final).replace("-", "")
          
-          time.sleep(2)
+          
           if response.status == 200:
             r += 1
           reqs.append(response.status)
@@ -87,7 +88,7 @@ async def fetch(session, url):
 
 
 urls = []
-urls.append(url)
+urls append(url)
 
 async def main():
   tasks = []
