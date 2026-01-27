@@ -39,11 +39,6 @@ else:
   os.system("cls")
   
 time.sleep(1)
-ascii = r"""
-
-[!] Do not use to attack government sites 
-
-"""
 banner = r"""
 
         ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
