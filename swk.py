@@ -42,7 +42,7 @@ print("""
 """)
 time.sleep(5)
 
-
+print("Loading komplit.....!")
 if osystem == "linux":
   os.system("clear")
 else:
@@ -68,7 +68,7 @@ banner = """
 ║
 ║
 ╚═══════════════════════════════════════════════════════════════╝
-   """                       
+"""                       
 print(Colorate.Horizontal(Colors.red_to_blue, banner))
 
 while attemps < 100:
