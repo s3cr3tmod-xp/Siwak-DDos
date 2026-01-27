@@ -40,11 +40,9 @@ time.sleep(1)
 ascii = r'''
 
 
-[!] Do not use this tool for illegal purposes 
+[!] Do not use to attack government sites 
 
-
-
-{+} Created By zSodex           
+          
  '''
 
 
