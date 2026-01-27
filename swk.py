@@ -59,6 +59,7 @@ banner = r"""
 
         """.replace('▒▒', '▒▒')
 
+print(Colorate.Horizontal(Colors.green_to_red, banner))
 while attemps < 100:
     username = input("\033[32mEnter your username: \033[0m")
     password = input("\033[31mEnter your password: \033[0m")
@@ -70,8 +71,6 @@ while attemps < 100:
         print('Incorrect credentials. Check if you have Caps lock on and try again.')
         attemps += 1
         continue
-     
-print(Colorate.Horizontal(Colors.green_to_red, banner))
 #//Gui End//#
 num = 0
 reqs = []
