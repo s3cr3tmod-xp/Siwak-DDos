@@ -49,7 +49,6 @@ banner = r"""
         """.replace('▒▒', '▒▒')
 
 
-banner = Add.Add(ascii, banner, center=True)
 print(Colorate.Horizontal(Colors.red_to_blue, banner))
 #//Gui End//#
 num = 0
