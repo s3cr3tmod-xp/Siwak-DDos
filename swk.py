@@ -82,7 +82,7 @@ async def fetch(session, url):
           print()
           sys.stdout.write(f"\033[48;5;7m\033[30mWeb {str(url)}\033[0m \033[38;5;39mRequests\033[37m=> {str(len(reqs))}\r")
           sys.stdout.write(f"\033[37mWeb {str(url)} \033[38;5;39mtime \033[33m=> {final}\r")
-          sys.stdout.write(f"\033[38;5;37mWeb {str(url)} \033[38;5;39Respon status Code \033[32m=> {str(response.status)}\r") 
+          sys.stdout.write(f"\033[38;5;37mWeb {str(url)} \033[38;5;39mRespon status Code \033[32m=> {str(response.status)}\r") 
         else:
           print(Colorate.Horizontal(Colors.red_to_green, "[-] Server is not responding"))
 
