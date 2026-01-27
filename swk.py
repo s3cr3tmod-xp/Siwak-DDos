@@ -88,8 +88,8 @@ async def fetch(session, url):
           final = str(set_final).replace("-", "")
  
         if response.status == 200:
+              r += 1
           sys.stdout.write(f"Requests : {str(len(reqs))} | Time : {final} | Response Status Code => {str(response.status)}\r")
-            r += 1
           time.sleep(2.5)
           reqs.append(response.status)
           print("")
