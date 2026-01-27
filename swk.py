@@ -1,4 +1,3 @@
-
 import colorama
 import threading 
 import aiohttp
@@ -60,7 +59,8 @@ banner = r"""
 print(Colorate.Horizontal(Colors.green_to_red, banner))
 banner = """
 ╔═══════════════════════════════════════════════════════════════════╗
-║                                                                         ║
+║                                            Deign by: KunFayz'         ║
+║.                                  Github: Zblack for Black Army community     ║ 
 ╚═══════════════════════════════════════════════════════════════════╝
 """
 print(Colorate.Horizontal(Colors.red_to_blue, banner))
