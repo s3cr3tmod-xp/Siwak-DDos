@@ -51,10 +51,15 @@ banner = r"""
 ▒▒║
 ▒▒╚═══════════╝
 
-"""
+""".replace('▒▒', '╚╝')
+
+
 banner = Add.Add(ascii, banner, center=True)
 
- print(Colorate.Horizontal(Colors.red_to_blue, banner))
+ 
+
+ 
+print(Colorate.Horizontal(Colors.red_to_blue, banner))
 #//Gui End//#
 num = 0
 reqs = []
@@ -117,4 +122,9 @@ if __name__ == '__main__':
           pass
     except:
       pass
+
+
+
+pystyle
+multiprocess
 
