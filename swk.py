@@ -1,3 +1,4 @@
+
 import colorama
 import threading 
 import aiohttp
@@ -55,14 +56,11 @@ banner = r"""
 ▒▒╔══════════╗
 ▒▒║
 ▒▒╚═══════════╝
-
-        """.replace('▒▒', '▒▒')
-
+""".replace('▒▒', '▒▒')
 print(Colorate.Horizontal(Colors.green_to_red, banner))
-# Version and URL
 banner = """
 ╔═══════════════════════════════════════════════════════════════════╗
-║                                                                           ║
+║                                                                         ║
 ╚═══════════════════════════════════════════════════════════════════╝
 """
 print(Colorate.Horizontal(Colors.red_to_blue, banner))
