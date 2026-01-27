@@ -73,8 +73,8 @@ print(Colorate.Horizontal(Colors.red_to_blue, banner))
 
 while attemps < 100:
     print("┏━━⬣")
-    username = input("\033[38;5;111m┗>Username: \033[37m")
-    password = input("\033[38;5;111m┗> Password: \033[37m")
+    username = input("\033[38;5;111m┗>Username: \033[30m")
+    password = input("\033[38;5;111m┗> Password: \033[30m")
 
     if username == 'swk00' and password == 'swk00':
         print("\033[32m⟩⟩ Aksi solidaritas untuk PALESTINE \033[0m")
