@@ -60,10 +60,9 @@ banner = r"""
 ▒▒╚═══════════╝
 """.replace('▒▒', '▒▒')
 print(Colorate.Horizontal(Colors.green_to_red, banner))
-banner = """
+banner =
 print(f"╔{'═' * 68}╗")
-                                   Deign by: KunFayz'         ║║                        Github: Zblack for Black Army community     ║ 
-"""
+                           
 print(Colorate.Horizontal(Colors.red_to_blue, banner))
 
 while attemps < 100:
