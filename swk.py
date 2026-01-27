@@ -63,9 +63,9 @@ banner = r"""
 ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
 """.replace('▒▒', '▒▒')
 print(Colorate.Horizontal(Colors.green_to_red, banner))
-banner =
-print(f"╔{'═' * 68╗")
-                           
+banner = """
+
+   """                        
 print(Colorate.Horizontal(Colors.red_to_blue, banner))
 
 while attemps < 100:
