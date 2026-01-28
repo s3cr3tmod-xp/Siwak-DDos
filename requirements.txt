@@ -1,4 +1,4 @@
 pystyle
 aiohttp
-multiprocess
+multiprocessing
 requests
