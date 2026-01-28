@@ -1,4 +1,4 @@
-pystyle
 aiohttp
 multiprocessing
 requests
+pystyle
