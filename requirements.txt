@@ -1,4 +1,0 @@
-aiohttp
-multiprocessing
-requests
-pystyle
