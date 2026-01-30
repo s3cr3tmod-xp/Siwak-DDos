@@ -4,7 +4,7 @@ import requests
 import aiohttp
 import asyncio
 import subprocess
-import multiprocess
+import multiprocessing
 import sys
 import time
 from time import sleep
